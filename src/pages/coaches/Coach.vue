@@ -1,3 +1,3 @@
 <template>
-    
+    Coach detail
 </template>

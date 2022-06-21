@@ -18,8 +18,8 @@ const router = createRouter({
             component: CoachesList
         },
         {
-            path: '/coaches:id',
-            componente: Coach,
+            path: '/coaches/:id',
+            component: Coach,
             children: [ 
                 {
                     path: 'contact', //coaches/id/contact
