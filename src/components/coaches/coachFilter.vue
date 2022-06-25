@@ -30,14 +30,12 @@ export default {
     },
     methods: {
         setFilter(event) {
-            const inputId = event.target.dispatchEvent;
+            const inputId = event.target.id;
             const isActive = event.target.checked;
             const updatedFilters = {
                 ...this.filters,
                 [inputId]: isActive
             };
-
-            console.log(isActive);
 
             this.filters = updatedFilters;
             this.$emit('change-filter', updatedFilters);
