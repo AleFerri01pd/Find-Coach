@@ -37,6 +37,7 @@
 
 <script>
 export default {
+    emits: ['save-data'],
     data() {
         return {
             firstName: '',
@@ -49,7 +50,7 @@ export default {
     methods: {
         submitForm() {
             const formData = {
-                firt: this.firstName,
+                first: this.firstName,
                 last: this.lastName,
                 rate: this.rate,
                 description: this.description,
@@ -57,6 +58,7 @@ export default {
             }
 
             console.log(formData);
+            this.$emit('save-data', formData);
         }
     }
 }
