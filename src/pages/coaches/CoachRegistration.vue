@@ -19,6 +19,7 @@ export default {
             this.$store.dispatch('coaches/addCoach', formData); //action presente nello store (VUEX) per salvare un coach (locale)
             this.$router.replace('/coaches');
         }
-    }
+    },
+    
 }
 </script>
