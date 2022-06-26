@@ -1,0 +1,19 @@
+{
+  "name": "find-coach",
+  "version": "1.0.0",
+  "description": "Web App find a Coach",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleFerri01pd/Find-Coach.git"
+  },
+  "author": "Alessandro Ferri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleFerri01pd/Find-Coach/issues"
+  },
+  "homepage": "https://github.com/AleFerri01pd/Find-Coach"
+}
