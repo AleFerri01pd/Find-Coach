@@ -1,4 +1,5 @@
 <template>
+<div>
     <section name="filter">
         <coach-filter @change-filter="setFilter"></coach-filter>
     </section>
@@ -20,6 +21,7 @@
             <h3 v-else>Nessun Allenatore Trovato...</h3>
         </base-card>
     </section>
+    </div>
 </template>
 
 <script>
