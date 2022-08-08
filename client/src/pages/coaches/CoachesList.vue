@@ -70,9 +70,15 @@ export default {
         }
     
     },
+    created() {
+        this.loadCoaches();
+    },
     methods: {
         setFilter(updatedFilters) {
             this.activeFilters = updatedFilters;
+        },
+        loadCoaches() {
+            this.$store.dispatch('coaches/loadCoaches');
         }
     }
 }
